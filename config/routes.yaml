@@ -30,3 +30,9 @@ users_delete:
     path: /users/delete
     controller: App\Controller\UserController::deleteUser
     methods: [DELETE]
+
+api_login:
+    path: /api/login
+    methods: POST
+    defaults: { _controller: null }
+
